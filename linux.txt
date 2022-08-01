@@ -1,0 +1,42 @@
+cat /etc/shells = mostra todos os shells
+dash = o shell que utilizamos
+cd .. =volta uma pasta <
+ls = lista arquivos da pasta
+ls -a = lista e mostra os arquivos ocultos
+ls -lha = mostra mais detalhes
+TAB = auto completa
+escreve o comando + TAB = mostra todos os comandos que tem com aquele comando
+setas ^ = mostram os comandos digitados anteriormente
+history = historico de comandos digitados
+cd ~ = volta para o diretório home
+cd - =volta para o diretorio anterior
+cd = leva para a pasta que queremos
+pwd = mostra onde vc está
+crl+d = exit
+crtl+l = limpa o prompt
+------------------,ucd
+quando começa com D é um diretório -
+drwx------- 2 root root 4,OK jul 19 22:23
+quando começa com - é um Arquivo
+
+caminho raiz = o / faz procurar no root= cd /usr, se vc procurar cd /lib e lib não tiver no root vai dar erro
+caminho relativo = cd usr procura 'usr' exatamente na pasta que vc está, se vc procurar cd lib e lib estiver no root e não na pasta que vc se encontra vai dar erro tbm
+caminho absoluto= caminho completo digitado /usr/lib/systemd
+
+
+-------------
+halt= desliga a maquina
+reboot=desliga
+shutdown -h = desliga
+poweroff= desliga
+init 0 desliga/ init 6 reinicia  maquina
+shutdown --help = mostra opçoes
+shutdown -h 18:00 (ou +30, daqui 30 min) = agenda o desligamento
+shutdown -c = cancela o desligamento
+shutdown - r +30 "vou desligar galera"= manda um avisa do reboot p/ o usuario
+
+
+
+
+
+ 
