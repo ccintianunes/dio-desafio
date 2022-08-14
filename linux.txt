@@ -23,7 +23,6 @@ caminho raiz = o / faz procurar no root= cd /usr, se vc procurar cd /lib e lib n
 caminho relativo = cd usr procura 'usr' exatamente na pasta que vc está, se vc procurar cd lib e lib estiver no root e não na pasta que vc se encontra vai dar erro tbm
 caminho absoluto= caminho completo digitado /usr/lib/systemd
 
-
 -------------
 halt= desliga a maquina
 reboot=desliga
@@ -34,6 +33,22 @@ shutdown --help = mostra opçoes
 shutdown -h 18:00 (ou +30, daqui 30 min) = agenda o desligamento
 shutdown -c = cancela o desligamento
 shutdown - r +30 "vou desligar galera"= manda um avisa do reboot p/ o usuario
+----------
+git config --global user.email "email cadastrado no github"
+git config --global user.name "ccintianunes"
+-vá pro diretorio onde estão os aquivos que deseja subir
+git init (ls - a pra ver)
+git add . (adciona todos os arquivos para o git)
+git commit -m "descrição da alteração que ta fazendo"
+git branch -M main
+git remote origin https://github.com/ccintianunes/dio-desafio/ (caminho do diretorio)
+git push -u origin main (envia o codigo)
+###vai pedir a usuario e senha do github, na senha deve ser colocado um token criado
+
+
+
+
+
 
 
 
