@@ -14,6 +14,7 @@ cd = leva para a pasta que queremos
 pwd = mostra onde vc está
 crl+d = exit
 crtl+l = limpa o prompt
+lsb_release -a = descobrir versao do ubuntu
 ------------------,ucd
 quando começa com D é um diretório -
 drwx------- 2 root root 4,OK jul 19 22:23
@@ -45,6 +46,23 @@ git remote origin https://github.com/ccintianunes/dio-desafio/ (caminho do diret
 git push -u origin main (envia o codigo)
 ###vai pedir a usuario e senha do github, na senha deve ser colocado um token criado
 
+---------------
+comandos de rede!
+-sudo apt install net-tools
+ifconfig = configurações e endereço ip, interface de rede
+hostname -I = endereço ip, info do host (seu pc ou um dervidor)
+hostname -i = ip de loopback
+who = quem esta logado
+whoami = nome do usario que esta logado na rede
+ping = verifica se o host esta ativo enviando pacotes = ping www.google.com
+ping -w = limita o numero de pacotes = ping www.orkut.com -w 4
+dig = DNS de cada site
+dig +short = exibe só p n° ip de um host(site)
+tracerout = traça rota de quantos nós sao passados até o site = traceroute google.com
+-sudo apt install whois
+whois = trás informações sobre determinado site, dono, dados - whois www.aws.com.br
+-sudo apt install finger
+finger = trás informações do usuário que está logado
 
 
 
